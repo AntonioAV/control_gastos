@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: AppTheme().theme(),
+      theme: AppTheme().miTheme(),
       home: const HomePage(),
     );
   }

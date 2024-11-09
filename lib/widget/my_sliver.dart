@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class BasicSliverAppBar extends StatelessWidget {
-  const BasicSliverAppBar({super.key});
+class MySliver extends StatelessWidget {
+  const MySliver({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class BasicSliverAppBar extends StatelessWidget {
       body: CustomScrollView(
         slivers: <Widget>[
           const SliverAppBar(
-            title: Text('Suma de totales')  ,
+            title: Text('Suma de totales'),
             pinned: true,
           ),
           SliverList(
