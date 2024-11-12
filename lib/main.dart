@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:control_gastos/congig/theme/app_theme.dart';
+import 'package:control_gastos/config/theme/app_theme.dart';
 import 'package:control_gastos/pages/home_page.dart';
 
 void main() {

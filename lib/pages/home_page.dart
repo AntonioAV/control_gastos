@@ -5,6 +5,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MySliver();
+    return Scaffold(
+      backgroundColor: Colors.grey[300],
+      body: Column(
+        children: [
+          //Resumen encabezado.
+
+          //Scroll tarjetas
+        ],
+      ),
+    );
   }
 }
